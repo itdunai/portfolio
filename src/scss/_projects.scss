@@ -1,0 +1,20 @@
+.projects{
+    padding: 110px 0;
+    background-color: $grey2;
+    text-align: center;
+    margin-bottom: 60px;
+    &__item{
+        margin-bottom: 90px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+        & img{
+            margin-bottom: 30px;
+        }
+        & a{
+            font-size: 20px;
+            font-weight: 600;
+            color: $black;
+        }
+    }
+}

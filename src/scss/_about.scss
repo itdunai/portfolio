@@ -1,0 +1,11 @@
+.about{
+    background-color: $grey2;
+    padding: 110px 0;
+    text-align: center;
+    margin: 0;
+}
+@media screen and(max-width:525px) {
+    .about{
+        padding: 50px 15px;
+    }
+}
